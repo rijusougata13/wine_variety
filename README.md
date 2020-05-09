@@ -18,9 +18,16 @@
   * encode the region,country and winery
   * reduce the range of point
   * preprocess the designation and review_description
+  #### i have save the processed data into processed_data.csv file
 ---
 ---
-## 5.Model Used
+## 5. Other Files
+  * processed_data.csv    ->i have saved the processed data into this file.so you dont have to preprocess it
+  * wine_model.pkl        ->i have saved the xgboost trained model into this file.so you donot have to train it
+  * sample_submission1.csv->this is the submission file where the predicted value of test data is stored
+---
+---
+## 6.Model Used
 * i have used xgboost model to predict the variety .it has 59 % accuracy in train dataset.
 ### XGBOOST-->
   ### Accuracy Score->58.8%
